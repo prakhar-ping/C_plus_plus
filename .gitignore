@@ -1,0 +1,5 @@
+# Ignore the entire build directory
+bin/
+# Ignore macOS debug folders
+*.dSYM/
+.vscode/
