@@ -2,4 +2,4 @@
 bin/
 # Ignore macOS debug folders
 *.dSYM/
-.vscode/
+.vscode/git
