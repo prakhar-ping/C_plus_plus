@@ -1,6 +1,11 @@
-# Ignore the entire build directory
-bin/
-# Ignore macOS debug folders
-*.dSYM/
-.vscode/git4DVectors/movevector
-4DVectors/movevector
+# 1. Ignore absolutely everything in this directory and subdirectories
+*
+
+# 2. Exception: Do NOT ignore files ending in .cpp
+!*.cpp
+
+# 3. Exception: Do NOT ignore directories (so Git can find the .cpp files inside them)
+!*/
+
+# 4. Exception: Do NOT ignore the .gitignore file itself
+!.gitignore
