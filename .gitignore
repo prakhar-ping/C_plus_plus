@@ -3,3 +3,4 @@ bin/
 # Ignore macOS debug folders
 *.dSYM/
 .vscode/git4DVectors/movevector
+4DVectors/movevector
